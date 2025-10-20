@@ -1,0 +1,48 @@
+.header {
+	position: fixed;
+	width: 900px;
+	transform: translateX(-50%);
+	left: 50%;
+}
+.header .header_inner {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header .logo img {
+	max-width: 100px;
+}
+.header .menu ul {
+	margin: 0px;
+	list-style-type: none;
+}
+.header .menu ul li {
+	margin: 0px 30px 0px 0px;
+	display: inline-block;
+}
+.header .menu ul li:last-child {
+	margin-right: 0px;
+}
+.header .menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poppins';
+	font-weight: 500;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.header .menu ul li.active a {
+	color: var(--main-color);
+}
+.header .menu ul li a:hover {
+	color: var(--main-color);
+}
