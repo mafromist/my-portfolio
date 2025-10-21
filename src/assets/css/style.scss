@@ -1,4 +1,7 @@
 @charset "utf-8";
+@use 'header';
+@use 'mobile-menu';
+@use 'plugins';
 
 /*
 /*	Copyright (c) 2025 Muge Alev
@@ -229,9 +232,6 @@ h6 {
 	right: 0px;
 	z-index: -1;
 }
-
-@import './mobile-menu.scss';
-@import './header.scss';
 
 /*---------------------------------------------------*/
 /*	04) EDREA CONTENT

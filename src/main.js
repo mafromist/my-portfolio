@@ -11,6 +11,5 @@ import 'swiper/css/scrollbar';
 
 // Import main SCSS files
 import './assets/css/style.scss';
-import './assets/css/plugins.scss';
 
 createApp(App).use(router).mount('#app');

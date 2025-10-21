@@ -34,7 +34,7 @@
 									<li>
 										<div class="list_inner">
 											<i class="icon-calendar"></i>
-											<span>{{ aboutData.bithday }}</span>
+											<span>{{ aboutData.birthyear }}</span>
 										</div>
 									</li>
 									<li>
@@ -49,7 +49,7 @@
 										<div class="list_inner">
 											<i class="icon-phone"></i>
 											<span
-												><a href="#">{{ aboutData.phn }}</a></span
+												><a href="#">{{ aboutData.phoneNumber }}</a></span
 											>
 										</div>
 									</li>
@@ -79,9 +79,7 @@
 								<div class="text">
 									<p>
 										Hello everybody! My name is
-										<span>David Parker.</span> I am a graphic designer, and I'm very passionate and dedicated to my
-										work. With 20 years experience as a professional a graphic designer, I have acquired the skills and
-										knowledge.
+										<span>Muge Alev.</span> I am a graphic designer, and I'm very passionate and dedicated to my work.
 									</p>
 								</div>
 							</div>
@@ -165,7 +163,7 @@
 													<span>{{ edu.year }}</span>
 												</div>
 												<div class="place">
-													<h3>{{ edu.unv }}</h3>
+													<h3>{{ edu.universityName }}</h3>
 													<span>{{ edu.degree }}</span>
 												</div>
 											</div>
@@ -310,12 +308,12 @@ const modules = [Navigation, Pagination];
 const open = ref(false);
 
 const aboutData = {
-	firstName: 'David',
-	lastName: 'Parker',
-	bithday: '01.07.1990',
-	address: 'Avon str. 22, NYC, USA',
-	phn: '+77 022 155 02 02',
-	email: 'example@gmail.com',
+	firstName: 'Muge',
+	lastName: 'Alev',
+	birthyear: '1991',
+	address: 'Istanbul',
+	phoneNumber: '+77 022 155 02 02',
+	email: 'muge.alev@me.com',
 	serviceLists: [
 		'Website Development',
 		'Digital Experience',
@@ -330,43 +328,43 @@ const aboutData = {
 			{ name: 'Angular', value: '90' },
 		],
 		language: [
-			{ name: 'English', value: '95' },
-			{ name: 'Russian', value: '80' },
-			{ name: 'Arabic', value: '90' },
+			{ name: 'English', value: '100' },
+			{ name: 'Turkish', value: '100' },
+			{ name: 'German', value: '20' },
 		],
 	},
 	education: [
 		{
-			year: '2014 - 2016',
-			unv: 'Oxford Univercity',
-			degree: 'Master Degree',
+			year: '2021 - 2015',
+			universityName: 'Anadolu University',
+			degree: 'BsC Management Information System',
 		},
 		{
-			year: '2010 - 2014',
-			unv: 'Texas Univercity',
-			degree: 'Bachelor Degree',
-		},
-		{
-			year: '2008 - 2010',
-			unv: 'Simone College',
-			degree: 'Associate Degree',
+			year: '2014 - 2017',
+			universityName: 'University of Liverpool',
+			degree: 'BA Business Administration',
 		},
 	],
 	working: [
 		{
-			year: '2018 - running',
-			company: 'Envato Elements',
-			deg: 'Exclusive Author',
+			year: '2017 - present',
+			company: 'Mamind Digital',
+			deg: 'Founder - Freelance Tech Consultant and Full Stack Developer',
 		},
 		{
-			year: '2015 - 2018',
-			company: 'Avo Corporation',
-			deg: 'Content Manager',
+			year: '01/2025 - 09/2025',
+			company: 'Eva Commerce',
+			deg: 'Front End Developer',
 		},
 		{
-			year: '2012 - 2015',
-			company: 'FC Barcelona',
-			deg: 'Football Player',
+			year: '04/2023 - 09/2024',
+			company: 'Hotelplan UK',
+			deg: 'Front End Developer',
+		},
+		{
+			year: '09/2021 - 04/2023',
+			company: 'Modern English Digital',
+			deg: 'Full Stack Developer',
 		},
 	],
 	partnersLogos: ['img/partners/1.png', 'img/partners/2.png', 'img/partners/3.png', 'img/partners/4.png'],

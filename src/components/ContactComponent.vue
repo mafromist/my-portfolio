@@ -11,32 +11,32 @@
 							<li>
 								<div class="list_inner">
 									<i class="icon-location"></i>
-									<span><a href="#" class="href_location">Avon str. 22, NYC, USA</a></span>
+									<span><a href="#" class="href_location">Istanbul, Turkey</a></span>
 								</div>
 							</li>
-							<li>
+							<!-- <li>
 								<div class="list_inner">
 									<i class="icon-phone"></i>
 									<span><a href="#">+77 022 155 02 02</a></span>
 								</div>
-							</li>
+							</li> -->
 							<li>
 								<div class="list_inner">
 									<i class="icon-mail-1"></i>
-									<span><a href="mailto:example@gmail.com">example@gmail.com</a></span>
+									<span><a href="mailto:example@gmail.com">muge.alev@me.com</a></span>
 								</div>
 							</li>
 							<li>
 								<div class="list_inner">
-									<i class="icon-facebook-rect"></i>
-									<span><a href="https://www.facebook.com">@facebookNick</a></span>
+									<i class="icon-linkedin-rect"></i>
+									<span><a href="https://www.linkedin.com/in/mugealev">@MugeAlev</a></span>
 								</div>
 							</li>
 						</ul>
 					</div>
 					<div class="right">
 						<div class="fields">
-							<form action="/" method="post" class="contact_form" id="contact_form">
+							<form action="/modal/contact.php" method="post" class="contact_form" id="contact_form">
 								<div
 									class="returnmessage"
 									data-success="Your message has been received, We will contact you soon."></div>
@@ -47,24 +47,22 @@
 									<ul>
 										<li>
 											<div class="list_inner">
-												<input id="name" type="text" placeholder="Name" autocomplete="off" />
+												<input id="name" name="name" type="text" placeholder="Name" autocomplete="off" />
 											</div>
 										</li>
 										<li>
 											<div class="list_inner">
-												<input id="email" type="text" placeholder="Email" autocomplete="off" />
+												<input id="email" name="email" type="text" placeholder="Email" autocomplete="off" />
 											</div>
 										</li>
 									</ul>
 								</div>
 								<div class="last">
-									<textarea id="message" placeholder="Message"></textarea>
+									<textarea id="message" name="message" placeholder="Message"></textarea>
 								</div>
 								<div class="button">
 									<a id="send_message" href="#">Send Message</a>
 								</div>
-
-								<!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
 							</form>
 						</div>
 					</div>
