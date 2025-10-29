@@ -64,7 +64,7 @@
 								</ul>
 							</div>
 							<div class="button full">
-								<a href="img/about/1.jpg" download>Download CV</a>
+								<a href="img/about/1.jpg" download>{{ $t('downloadCV') }}</a>
 							</div>
 						</div>
 					</div>
@@ -73,12 +73,12 @@
 							<div class="biography">
 								<div class="about_title">
 									<h3>
-										<span>About <span class="coloring">Me</span></span>
+										<span>{{ $t('about') }} <span class="coloring">{{ $t('me') }}</span></span>
 									</h3>
 								</div>
 								<div class="text">
 									<p>
-										Hello everybody! My name is
+										{{ $t('hello') }} {{ $t('everybody') }}! My name is
 										<span>Muge Alev.</span> I am a graphic designer, and I'm very passionate and dedicated to my work.
 									</p>
 								</div>

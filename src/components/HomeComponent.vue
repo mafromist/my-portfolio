@@ -2,6 +2,7 @@
 	<div class="section animated" id="home">
 		<div class="section_inner">
 			<div class="home">
+				<h1>{{ $t('home') }}</h1>
 				<h3 class="name">Müge <span class="coloring">Alev</span></h3>
 				<h3 class="job">
 					<AnimationText />
